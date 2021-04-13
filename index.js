@@ -2,24 +2,24 @@ var readlineSync = require('readline-sync');
 var score = 0;
 var questions = [
   {
-    question:'What is my favourite colour?',
+    question:'What is my favourite colour? ',
     answer:'red',
   },
   {
-    question:'What is my favourite food?',
+    question:'What is my favourite food? ',
     answer:'gulab jamun',
   },
   {
-    question:'What do I want to become in future?',
-    answer:'game developer',
+    question:'What is my favourite place? ',
+    answer:'home',
   },
   {
-    question:'Which anime is my favourite?',
+    question:'Which anime is my favourite? ',
     answer:'clannad',
   },
   {
-    question:'Who is my role model?',
-    answer:'kayaba akihiko',
+    question:"What is my brother's name? ",
+    answer:'rudra',
   },
 ];
 

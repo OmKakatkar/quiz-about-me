@@ -1,0 +1,23 @@
+{
+  "name": "quiz-about-me",
+  "version": "1.0.0",
+  "description": "This is a CLI based quiz about me. Check it to test your knowledge about me.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmKakatkar/quiz-about-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmKakatkar/quiz-about-me/issues"
+  },
+  "homepage": "https://github.com/OmKakatkar/quiz-about-me#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
