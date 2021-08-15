@@ -1,5 +1,6 @@
 var readlineSync = require('readline-sync');
 var score = 0;
+var userName = readlineSync.question('Enter your name: ')
 var questions = [
   {
     question:'What is my favourite colour? ',
@@ -28,7 +29,7 @@ for (var ques = 0; ques<questions.length; ques++ ) {
   // console.log(questions[ques].question)
 }
 
-console.log('Your score is: '+score);
+console.log(userName+"'s score is: "+score);
 
 function quiz (question, answer) {
   var userInput = readlineSync.question(question);
